@@ -5,13 +5,11 @@ var onAboutUs=function(req, res){
     res.send("Chief Mentor :Ravi Tambade");
 };
 var onDefault=function(req, res){
-    res.send("<h1>Transflower Learning Pvt. Ltd</h1>"+
+    res.send("<h1>Fabrikam Pvt. Ltd</h1>"+
               "<hr/>"+
               "<ol>"+
-                    " <li>Mentoring for skill building</li>"+
-                    " <li>Workshops</li>"+
-                    " <li>Online Course</li>"+
-                    " <li>Corporate Training</li>"+
+                    " <li>Fabrikam is multinational company</li>"+
+                    " <li>Has their 4 offices all over the world</li>"+
              "</ol>");
 };
 app.get("/",onDefault);  // Request handler functions are registered
